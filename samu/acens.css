@@ -1,0 +1,68 @@
+.imagen-marca {
+  background: #fff;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
+
+.logo-acceso {
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #7BD100;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.desc-acceso {
+  color: #888;
+  font-size: 14px;
+  max-width: 360px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+#io-ox-login-background.wallpaper {
+  background-color: #fff;
+  background-image: None;
+}
+
+#io-ox-login-container .alert.alert-info {
+  background: none repeat scroll 0 0 #f5f5f5;
+  border-color: red;
+  color: black;
+  /*margin-top: 3em;*/
+}
+
+#io-ox-login-store {
+  color: #555;
+}
+
+#io-ox-login-container .btn-primary {
+  background-color: #7BD100;
+  border-color: #7BD100;
+}
+
+#io-ox-login-container input.form-control:focus{
+  border-color: #7BD100;
+  box-shadow: 0 0 7px 0 #dcdcdc inset, 0 0 8px 0 #f7f7f7;
+  outline:0;
+}
+
+
+#io-ox-login-container {
+  max-width: 100%;
+  /*top: 20%;*/
+  top: auto;
+  display: inline;
+  -ms-transform: None;
+  transform: None;
+}
+
+div.error4xx5xx a {
+  color: #7BD100;
+}
+
+div.error4xx5xx a:hover {
+  color: #7BD100;
+}
